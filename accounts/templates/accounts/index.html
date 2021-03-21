@@ -4,14 +4,12 @@
         <title>Dioras Py.Exercise #2</title>
     </head>
     <body>
-		<br> 
-        <h2>Python Exercise Home Page</h2>
+        <h1>Python Exercise Home Page</h1>
 		
-		<h4>{{ user.username }}</h4>
-		<br>
-		<br>
+		<h3>Hello {{ user.username }}!</h3>
+
 		
-		<a href="{% url 'logout' %}">Log out</a>
+		<h2><a href="{% url 'logout' %}">Log out</a></h2>
     
 	</body>
 </html>
